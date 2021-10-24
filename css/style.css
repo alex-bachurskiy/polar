@@ -1129,7 +1129,7 @@ h1, h2, h3, h4, h5, h6, p {
     }
     
     .header__menu {
-        display: block;
+        display: none;
     }
 
     .header__main {
@@ -1251,9 +1251,6 @@ h1, h2, h3, h4, h5, h6, p {
         width: auto;
     }
 
-    .header__menu {
-        display: none;
-    }
 
     .mobile div {
         display: block;

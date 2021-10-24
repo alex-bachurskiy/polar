@@ -1124,10 +1124,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 @media screen and (max-width:992px) {
+
     .container {
         width: 720px;
     }
     
+    .mobile div {
+        display: block;
+    }
+
     .header__menu {
         display: none;
     }
@@ -1136,6 +1141,10 @@ h1, h2, h3, h4, h5, h6, p {
         text-align: center;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .header__main__content h6 {
+        font-size: 10px;
     }
 
     .header__main__content {
@@ -1224,16 +1233,24 @@ h1, h2, h3, h4, h5, h6, p {
 
     .footer__logo {
         padding-top: 40px;
-        margin-right: 10px;
+        margin-right: 0;
     }
 
     .footer__logo p {
-        width: 125px;
+        width: 110px;
+    }
+
+    .footer-menu__item {
+        font-size: 10px;
     }
 
     .footer-menu__container {
         position: relative;
         bottom: 0;
+    }
+
+    .footer-blog {
+        font-size: 10px;
     }
 
     .footer-form__input {
@@ -1249,11 +1266,6 @@ h1, h2, h3, h4, h5, h6, p {
 
     .container {
         width: auto;
-    }
-
-
-    .mobile div {
-        display: block;
     }
 
     .details__content h2 {

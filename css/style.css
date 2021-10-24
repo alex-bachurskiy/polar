@@ -1255,6 +1255,29 @@ h1, h2, h3, h4, h5, h6, p {
         display: block;
     }
 
+    .details__content h2 {
+        font-size: 40px;
+    }
+
+    .details__content p {
+        font-size: 14px;
+        width: 240px;
+    }
+
+    .details__image img {
+        width: 90%;
+    }
+
+    .ask-question__title {
+        font-size: 42px;
+        width: 500px;
+    }
+
+    .footer__container {
+        justify-content: space-evenly;
+        padding-bottom: 60px;
+    }
+
     .footer__logo {
         padding-top: 20px;
     }

@@ -1254,6 +1254,22 @@ h1, h2, h3, h4, h5, h6, p {
     .mobile div {
         display: block;
     }
+
+    .footer__logo {
+        padding-top: 20px;
+    }
+
+    .footer__logo p {
+        font-size: 11px;
+    }
+
+    .footer-menu__item {
+        font-size: 11px;
+    }
+
+    .footer-blog {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width:576px) {

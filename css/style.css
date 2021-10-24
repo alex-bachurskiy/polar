@@ -1270,6 +1270,10 @@ h1, h2, h3, h4, h5, h6, p {
     .footer-blog {
         font-size: 10px;
     }
+
+    .footer-form__input {
+        width: auto;
+    }
 }
 
 @media screen and (max-width:576px) {

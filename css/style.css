@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6, p {
 /*MOBILE-MENU*/ 
 
 .mobile div {
-    display: none;
+    display: block;
     position: fixed;
     bottom: 16px;
     right: 16px;
@@ -1086,6 +1086,10 @@ h1, h2, h3, h4, h5, h6, p {
 @media screen and (max-width:1200px) {
     .container {
         width: 960px;
+    }
+
+    .mobile div {
+        display: none;
     }
 
     .header__main {
